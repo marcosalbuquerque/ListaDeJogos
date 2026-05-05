@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lista de Jogos</string>
+    <string name="nav_jogos">Jogos</string>
+    <string name="nav_sobre">Sobre</string>
+
+    <string name="titulo_lista_jogos">Minha lista de jogos</string>
+    <string name="subtitulo_lista_jogos">Exemplo com RecyclerView + data class + entidade</string>
+
+    <string name="item_genero">Gênero: %1$s</string>
+    <string name="item_plataforma">Plataforma: %1$s</string>
+    <string name="item_status">Status: %1$s</string>
+    <string name="status_concluido">Concluído</string>
+    <string name="status_em_andamento">Em andamento</string>
+
+    <string name="sobre_titulo">Resumo da atividade</string>
+    <string name="sobre_resumo_jogos">Total de jogos: %1$d\nConcluídos: %2$d\nEm andamento: %3$d</string>
+    <string name="sobre_conceitos">Bottom Navigation alterna entre os Fragments \"Jogos\" e \"Sobre\".\nA data class Jogo modela os dados exibidos no app.\nJogoEntity representa a entidade do sistema antes da conversão para o modelo de tela.\nRecyclerView mostra a lista com Adapter e layout de item.</string>
+    <string name="sobre_ciclo_vida">O ciclo de vida foi demonstrado com logs em MainActivity, ListaJogosFragment e SobreFragment (onCreate, onStart, onResume, onPause, onStop e onDestroy).</string>
+</resources>
